@@ -7,23 +7,84 @@ $icon-font-path: '../fonts/';
 //GoogleFonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
 
+//Variables
+$dblue: #001947;
+$lblue: #333366;
+$yellow: #fff200;
+
+
+//Global Styles
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background: $dblue;
 }
 
+h1,h2,h3,h4 {
+  color: white;
+  text-rendering: optimizeLegibility;
+}
+
+// Header % Nav Styles
 .header {
   padding: 60px 0 0 0;
-}
-
-.header__navigation h3 {
-  text-align: right;
 }
 
 .header__logo {
   z-index: 999;
 }
 
-.header__navigation nav {
-  margin-top: 189px;
+.header__navigation h3 {
+  text-align: right;
 }
+
+.header__navigation .navbar-default {
+    background-color: #001947;
+    border: none;
+    padding-left: 0;
+}
+
+.header__navigation li a {
+  font-size: 3rem;
+  color: white;
+}
+
+.header__navigation .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    border: 2px solid $yellow;
+    background-color: #eeeeee00;
+    border-radius: 6px;
+}
+
+
+//Hero Section Styles
+.hero {
+  padding: 60px 0 0 0;
+}
+
+.hero__image {
+  background: url('../images/hero.png') 50% 10% no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  border: 4px solid white;
+  border-radius: 5px;
+}
+
+.hero__description {
+
+}
+
+// To-do list
+//
+// 1. Clean up and organise CSS, add proper comments etc
+// 2. Sort out navigation bar
+//     - This includes link COLOUR
+//     - Active COLOUR
+//     - dropdown links
+//     - Hover effects
+//     - Borders/Outlines
+// 3. Sort out hero section
+//     - Font sizing
+//     - Borders
+//     - Positioning
+//     - Background
