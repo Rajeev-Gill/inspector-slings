@@ -97,6 +97,14 @@ h1,h2,h3,h4 {
   background: $lblue;
   border: 4px solid white;
   border-radius: 5px;
+  max-width: 1140px;
+  position: relative;
+  left: 14px;
+  top: -4px;
+  border-top: none;
+  p{
+    color: white;
+  }
 }
 
 // To-do list
