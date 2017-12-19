@@ -4,17 +4,32 @@ $icon-font-path: '../fonts/';
 // endbower
 
 
-//GoogleFonts
+/*------------------------------------*\
+
+  #GOOGLE FONTS
+
+\*------------------------------------*/
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
 
-//Variables
+/*------------------------------------*\
+
+  #VARIABLES
+
+\*------------------------------------*/
+
 $dblue: #001947;
 $lblue: #2D396C;
 $yellow: #fff200;
 
 
 
-//Global Styles
+/*------------------------------------*\
+
+  #GLOBAL STYLES
+
+\*------------------------------------*/
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -26,7 +41,12 @@ h1,h2,h3,h4 {
   text-rendering: optimizeLegibility;
 }
 
-// Header % Nav Styles
+/*------------------------------------*\
+
+  #HEADER AND NAV STYLES
+
+\*------------------------------------*/
+
 .header {
   padding: 60px 0 0 0;
 }
@@ -74,7 +94,11 @@ h1,h2,h3,h4 {
   margin-right: 3px;
 }
 
-//Dropdown style override
+/*------------------------------------*\
+
+  #DROPDOWN STYLE OVERRIDE
+
+\*------------------------------------*/
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: $dblue;
@@ -91,7 +115,13 @@ h1,h2,h3,h4 {
   font-size: 2.5rem;
 }
 
-//Hero Section Styles
+
+/*------------------------------------*\
+
+  #HERO SECTION
+
+\*------------------------------------*/
+
 .hero {
   padding: 60px 0 0 0;
 }
