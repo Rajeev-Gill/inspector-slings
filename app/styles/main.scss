@@ -169,6 +169,7 @@ h1,h2,h3,h4 {
 .services h1 {
   text-align: center;
   font-size: 6.5rem;
+  margin-bottom: 30px;
 }
 
 .services h3 {
@@ -212,6 +213,41 @@ h1,h2,h3,h4 {
 
 .lower {
   top: 45px;
+}
+
+/*------------------------------------*\
+
+  #ACCREDITATION SECTION
+
+\*------------------------------------*/
+
+.accreditation {
+    padding: 60px 0 0 0;
+}
+
+.accreditation h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  margin-bottom: 30px;
+}
+
+.accreditation-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accreditation-item img {
+  height: 128px;
+  width: 128px;
+  position: relative;
+  right: 27px;
+}
+
+.accreditation-item p {
+  color: white;
+  max-width: 185px;
+  margin-top: 20px;
 }
 
 
