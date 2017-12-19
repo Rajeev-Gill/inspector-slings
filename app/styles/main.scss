@@ -50,24 +50,29 @@ h1,h2,h3,h4 {
   padding-top: 20px;
 }
 
-.header__navigation li a {
+.navbar-default .navbar-nav > li > a {
   font-size: 3rem;
-  color: white !important;
+  color: white;
 }
 
 .header__navigation .nav > li > a:hover, .nav > li > a:focus{
     text-decoration: none;
-    outline: 2px solid $yellow;
+    //outline: 2px solid $yellow;
     background-color: $dblue;
     color: white;
     border-radius: 6px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    outline: 2px solid $yellow;
+    //outline: 2px solid $yellow;
     background-color: $dblue;
 }
 
+.navbar-default .navbar-nav > .active > a {
+  outline: 2px solid yellow;
+  color: white;
+  margin-right: 3px;
+}
 
 //Dropdown style override
 
@@ -78,6 +83,12 @@ h1,h2,h3,h4 {
 
 .dropdown-menu {
   background: $dblue !important;
+}
+
+.dropdown-menu > li > a {
+  background: $dblue !important;
+  color: white;
+  font-size: 2.5rem;
 }
 
 //Hero Section Styles
@@ -102,8 +113,16 @@ h1,h2,h3,h4 {
   left: 14px;
   top: -4px;
   border-top: none;
+  h2{
+    font-size: 6.5rem;
+    padding-left: 48px;
+    font-weight: bold;
+  }
   p{
     color: white;
+    padding: 20px 5px;
+    font-size: 2.5rem;
+    text-align: end;
   }
 }
 
