@@ -156,6 +156,65 @@ h1,h2,h3,h4 {
   }
 }
 
+/*------------------------------------*\
+
+  #SERVICES SECTION
+
+\*------------------------------------*/
+
+.services {
+  padding: 60px 0 0 0;
+}
+
+.services h1 {
+  text-align: center;
+  font-size: 6.5rem;
+}
+
+.services h3 {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid $yellow;
+  padding-bottom: 11px;
+}
+
+.services p {
+  color: white;
+  max-width: 185px;
+}
+
+.services a {
+  position: relative;
+  font-size: 2rem;
+  border: 2px solid $yellow;
+  padding: 5px 30px;
+  color: white;
+  background: $dblue;
+}
+
+.services a:hover {
+  background: $lblue;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $lblue;
+  border-radius: 5px;
+  min-height: 350px;
+  padding-bottom: 20px;
+}
+
+.low {
+  top: 22px;
+}
+
+.lower {
+  top: 45px;
+}
+
+
 // To-do list
 //
 // 1. Clean up and organise CSS, add proper comments etc
