@@ -94,6 +94,11 @@ h1,h2,h3,h4 {
   margin-right: 3px;
 }
 
+// Nav button focused
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: $yellow;
+}
+
 /*------------------------------------*\
 
   #DROPDOWN STYLE OVERRIDE
@@ -269,19 +274,212 @@ h1,h2,h3,h4 {
   font-size: 2.5rem;
 }
 
+/*------------------------------------*\
 
+  #MEDIA QUERIES
 
-// To-do list
-//
-// 1. Clean up and organise CSS, add proper comments etc
-// 2. Sort out navigation bar
-//     - This includes link COLOUR
-//     - Active COLOUR
-//     - dropdown links
-//     - Hover effects
-//     - Borders/Outlines
-// 3. Sort out hero section
-//     - Font sizing
-//     - Borders
-//     - Positioning
-//     - Background
+\*------------------------------------*/
+
+/* Small devices (Less than 768px) */
+@media (max-width: 768px) {
+
+  /*------------------------------------*\
+
+    #HEADER AND NAV STYLES
+
+  \*------------------------------------*/
+
+  .header {
+    padding: 14px 0 0 0;
+  }
+
+  .header a {
+    display: flex;
+  }
+
+  .header img {
+    margin-bottom: 14px !important;
+  }
+
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: $dblue;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar:focus {
+    background-color: $yellow;
+  }
+
+  .header__navigation h3 {
+    text-align: center;
+    border-bottom: 2px solid $yellow;
+    padding-bottom: 6px;
+  }
+
+  .header__navigation h3:nth-child(2) {
+    font-size: 1.8rem;
+  }
+
+  //Nav Button
+  .navbar-default .navbar-toggle {
+    margin-right: 128px;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  /*------------------------------------*\
+
+    #DROPDOWN STYLE OVERRIDE
+
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+
+    #HERO SECTION
+
+  \*------------------------------------*/
+
+  .hero__description {
+    max-width: 500px !important;
+    margin: 0;
+    left: 0px;
+  }
+
+  /*------------------------------------*\
+
+    #SERVICES SECTION
+
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+
+    #ACCREDITATION SECTION
+
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+
+    #CONTACT SECTION
+
+  \*------------------------------------*/
+
+}
+
+/* Medium devices (Less than 992) */
+@media (max-width: 992px) {
+
+  /*------------------------------------*\
+
+    #HEADER AND NAV STYLES
+
+  \*------------------------------------*/
+
+  .navbar-default .navbar-nav > li > a {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .header__navigation h3 {
+    margin-top: 0;
+  }
+
+  /*------------------------------------*\
+
+    #DROPDOWN STYLE OVERRIDE
+
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+
+    #HERO SECTION
+
+  \*------------------------------------*/
+
+  .hero {
+    padding: 20px 0 0 0;
+  }
+
+  .hero__description {
+    max-width: 721px !important;
+  }
+
+  .hero__description h2 {
+    font-size: 4.5rem;
+    padding: 0;
+  }
+
+  /*------------------------------------*\
+
+    #SERVICES SECTION
+
+  \*------------------------------------*/
+
+  .service-item {
+    min-height: 421px;
+  }
+
+  .low {
+  top: 75px;
+  }
+
+  .lower {
+    top: 96px;
+  }
+  /*------------------------------------*\
+
+    #ACCREDITATION SECTION
+
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+
+    #CONTACT SECTION
+
+  \*------------------------------------*/
+
+}
+
+/* Large devices (Less than 1200px) */
+@media (max-width: 1200px) {
+
+  /*------------------------------------*\
+
+    #HEADER AND NAV STYLES
+
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+
+    #DROPDOWN STYLE OVERRIDE
+
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+
+    #HERO SECTION
+
+  \*------------------------------------*/
+
+  .hero__description {
+    max-width: 942px;
+  }
+
+  /*------------------------------------*\
+
+    #SERVICES SECTION
+
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+
+    #ACCREDITATION SECTION
+
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+
+    #CONTACT SECTION
+
+  \*------------------------------------*/
+
+}
