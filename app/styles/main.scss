@@ -99,6 +99,16 @@ h1,h2,h3,h4 {
     background-color: $yellow;
 }
 
+//Wierd border that pops up above menu
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: $dblue;
+}
+
+//Nav link hover effects
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+  color: white;
+}
+
 /*------------------------------------*\
 
   #DROPDOWN STYLE OVERRIDE
@@ -299,6 +309,7 @@ h1,h2,h3,h4 {
 
   .header img {
     margin-bottom: 14px !important;
+    margin: 0 auto;
   }
 
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -321,12 +332,40 @@ h1,h2,h3,h4 {
 
   //Nav Button
   .navbar-default .navbar-toggle {
-    margin-right: 128px;
+    margin-right: 45%;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
   }
+
+  //DROPDOWN
+  .nav > li {
+    position: relative;
+    display: block;
+    text-align: center;
+    text-align: center;
+    width: 120px;
+    margin: 2px auto;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+    font-size: 2rem;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li {
+    position: relative;
+    right: 39px;
+  }
+
+  //Hover styles on inner dropdown menu
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: white;
+    background-color: transparent;
+  }
+
   /*------------------------------------*\
 
     #DROPDOWN STYLE OVERRIDE
@@ -339,10 +378,26 @@ h1,h2,h3,h4 {
 
   \*------------------------------------*/
 
+  .hero__image {
+    min-height: 0;
+  }
+
   .hero__description {
     max-width: 500px !important;
     margin: 0;
     left: 0px;
+  }
+
+  .hero__description h2, p {
+    text-align: center !important;
+  }
+
+  .hero__description p {
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding: 0 0 0 0 !important;
   }
 
   /*------------------------------------*\
@@ -351,11 +406,31 @@ h1,h2,h3,h4 {
 
   \*------------------------------------*/
 
+  .services {
+    padding: 20px 0 0 0;
+  }
+
+  .service-item {
+    min-height: 388px;
+    margin-bottom: 10px;
+  }
+
+  .service-item h3 {
+    min-width: 260px;
+  }
   /*------------------------------------*\
 
     #ACCREDITATION SECTION
 
   \*------------------------------------*/
+
+  .accreditation {
+    padding: 20px 0 0 0;
+  }
+
+  .accreditation-item img {
+    right: 0;
+  }
 
   /*------------------------------------*\
 
@@ -373,6 +448,10 @@ h1,h2,h3,h4 {
     #HEADER AND NAV STYLES
 
   \*------------------------------------*/
+
+  .header__logo img {
+    max-width: 236px;
+  }
 
   .navbar-default .navbar-nav > li > a {
     font-size: 2rem;
