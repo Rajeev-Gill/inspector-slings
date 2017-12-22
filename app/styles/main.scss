@@ -71,7 +71,7 @@ h1,h2,h3,h4 {
 }
 
 .navbar-default .navbar-nav > li > a {
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -142,7 +142,7 @@ h1,h2,h3,h4 {
 }
 
 .hero__image {
-  background: url('../images/hero.png') 50% 10% no-repeat;
+  background: url('../images/hero.jpg') 50% 100% no-repeat;
   background-size: cover;
   min-height: 500px;
   border: 4px solid white;
@@ -308,6 +308,7 @@ h1,h2,h3,h4 {
 
   .header a {
     display: flex;
+    line-height: 25px;
   }
 
   .header img {
@@ -335,7 +336,11 @@ h1,h2,h3,h4 {
 
   //Nav Button
   .navbar-default .navbar-toggle {
-    margin-right: 45%;
+    margin: 0 auto;
+    display: block;
+    /* position: relative; */
+    /* max-width: 44px; */
+    float: none;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -350,6 +355,15 @@ h1,h2,h3,h4 {
     text-align: center;
     width: 120px;
     margin: 2px auto;
+  }
+
+  li.active {
+    margin: 0 auto !important;
+  }
+
+  .navbar-nav {
+    margin: 7.5px auto;
+    max-width: 292px;
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -459,10 +473,15 @@ h1,h2,h3,h4 {
   .navbar-default .navbar-nav > li > a {
     font-size: 2rem;
     color: white;
+    line-height: 22px;
   }
 
   .header__navigation h3 {
     margin-top: 0;
+  }
+
+  li.active {
+    margin: -2px 0px;
   }
 
   /*------------------------------------*\
@@ -530,6 +549,10 @@ h1,h2,h3,h4 {
 
   \*------------------------------------*/
 
+  .navbar-default .navbar-nav > li > a {
+    font-size: 1.77rem;
+  }
+
   /*------------------------------------*\
 
     #DROPDOWN STYLE OVERRIDE
@@ -551,6 +574,10 @@ h1,h2,h3,h4 {
     #SERVICES SECTION
 
   \*------------------------------------*/
+
+  .service-item-testing a {
+    font-size: 1.7rem;
+  }
 
   /*------------------------------------*\
 
