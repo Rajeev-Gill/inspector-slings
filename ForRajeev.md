@@ -16,23 +16,19 @@ Run gulp to build your webapp for production
 
 Run gulp serve:dist to preview the production build
 
- 
+
 https://stackoverflow.com/questions/37330718/how-install-font-awesome-via-bower
 
 bower install components-font-awesome --save
 
 Todo
 
-Put new logo in header
-Make telephone and email fixed box on mobiles (Later)
-Border hero section and make colour varied
-Make sure hero section typography is good
+Create page titled: Equipment Hire and sale
+Populate with images from Mark
+Remove services inner DROPDOWN
 
-Make new row for Services
-Make 3 new columns for services info
-Add mini CTA buttons to bottom of services columns
+Combine location & contact details into About us info (Bottom of page)
+on larger screen split contact sect into 2 columns 1 for google map embed
+Get better hero image from mark or internet
 
-Make 3 new columns for accreditation
-Put images of logos in acc Section
-Add text and ensure typography looks good
-Add left-borders to 2 first children of accreditation
+Complete google performance audit recommendations
